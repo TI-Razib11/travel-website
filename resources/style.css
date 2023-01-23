@@ -1,0 +1,218 @@
+body {
+    background-color: rgba(0, 0, 0, 0.055)!important;
+    font-family: 'Montserrat', sans-serif!important;
+   
+}
+header {
+    background-color: #F8EDE3;
+    padding: 10px 0;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.navbar-toggler {
+    outline: none !important;
+}
+.dropdown-menu {
+    border: none !important;
+    background-color: #F8EDE3 !important;
+}
+ .carousel-item {
+    background-color: rgb(0, 0, 0)!important;
+     position: relative;
+    height: 70vh;
+} 
+.carousel-caption {
+     position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+.overlay-img {
+     position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    opacity: .4;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0;
+}
+.customer {
+    padding: 2% 5%;
+}
+
+
+/* section-tour */
+#tour {
+    padding: 2% 5%;
+}
+.packeing {
+    padding: 5% 10%;
+}
+.packeing  h2 {
+    font-size: 45px;
+    letter-spacing: .1rem;
+}
+.packeing h5 {
+    letter-spacing: .3rem;
+    font-size: 25px;
+    color: aquamarine;
+} 
+#tour-location {
+    padding: 5% 0;
+}
+.tour-location-img {
+    position: relative;
+}
+
+.destination-overlay {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255,255,255, .5);
+    background-color: rgba(0,0,0,.3)!important;
+    z-index: 1;
+    transition:3s;
+}
+.destination-overlay:hover {
+    outline: 50px solid  rgba(255,255,255, .5);
+    overflow: hidden;
+
+}
+.destination-item img {
+    transition: 3s;
+    overflow: hidden;
+}
+.destination-item img:hover {
+    transform: scale(1.5);
+}
+
+.packeage-item {
+    background: white!important;
+}
+/* Service */
+.card {
+    background: #ffffff!important;
+}
+/* Service-section */
+#service-section .card-title {
+    font-size: 20px;
+}
+.service-item-i{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+    border: 2px solid #669928;
+    color: #669928;
+    margin-top: 30px;
+    transition: .5s;
+}
+.service-item-i:hover {
+    color: #fff;
+    background: #669928;
+}
+#restration {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(img/pexels-kampus-production-6181092.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Team-section */
+.team-social-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display:none;
+    transition: .5s;
+}
+.team-item{
+    transition: 3s;
+    overflow: hidden;
+}
+.team-item:hover {
+    transform: scale(1.1);
+}
+/* Blog-Section */
+.blog-date {
+    position: absolute;
+    width: 60px;
+    height: 45px;
+    top: 30px;
+    left: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #7ab730;
+}
+/* Testimonial Section */
+#testimonial .carousel-item {
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+
+/* Media Quary */
+@media (min-width: 768px) {
+.booking {
+    position: relative;
+    margin-top: -80px!important;
+    z-index: 1;
+    
+}
+.hero-part h1 {
+    font-size: 60px;
+   font-weight: bolder;
+}
+.hero-part .btn {
+    font-size: 30px;
+    margin-top: 10px;
+}
+}
+@media (max-width: 575px) {
+    .hero-part h1 {
+        font-size: 20px;
+    }
+    .hero-part h2 {
+        font-size: 16px;
+    }
+    .tour-content h3, h5 {
+        font-size: 18px;
+    }
+    .tour-content p {
+        font-size: 12px;
+
+    }
+    .offer h5 {
+        font-size: 16px;
+    }
+    .offer p {
+        font-size: 12px;
+    }
+    .copy-right p {
+        font-size: 10px;
+    } 
+    .packeage-item small {
+        font-size: 10px;
+    }
+    .section-title h2 {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+}
